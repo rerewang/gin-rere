@@ -1,0 +1,9 @@
+name = "gin-test"
+env="dev"
+loadlocation = "Asia/Shanghai"
+
+[server]
+    addr = ":3001"
+    readTimeout = 10000
+    writeTimeout = 10000
+    pid = "gin-test.pid"
