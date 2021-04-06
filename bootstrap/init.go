@@ -1,4 +1,4 @@
-package bootstrip
+package bootstrap
 
 func Init()  {
 	initConfig()

@@ -5,7 +5,7 @@
 ## 目录结构
 ```bash
 app                 #
-bootstrip           # 服务启动入口
+bootstrap           # 服务启动入口
 config              # 配置文件
 routes              # 路由
 pkg                 # 自定义类库

@@ -8,11 +8,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"
 
-	"rere/bootstrip"
+	"rere/bootstrap"
 )
 
 func main() {
-	bootstrip.Init()
+	bootstrap.Init()
 
 	run()
 }
