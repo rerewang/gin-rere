@@ -2,6 +2,7 @@
 package main
 
 import (
+	"rere/routes"
 	"time"
 	"net/http"
 
@@ -19,12 +20,7 @@ func main() {
 
 func run()  {
 	g := gin.Default()
-	g.GET("/ping", func(context *gin.Context) {
-		context.JSON(200, gin.H{
-			"message": "pong",
-		})
-	})
-
+	routes.Init(g)
 
 	s := &http.Server{
 		Addr: viper.GetString("server.addr"),
