@@ -7,7 +7,7 @@
 app                 #
 bootstrap           # 服务启动入口
 config              # 配置文件
-routes              # 路由
+route              # 路由
 pkg                 # 自定义类库
 go.mod              # Go Modules 管理相关依赖包
 go.sum              # Go Modules 包管理版本信息

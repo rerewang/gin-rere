@@ -1,8 +1,8 @@
-package routes
+package route
 
 import (
 	"github.com/gin-gonic/gin"
-	"rere/app/controller"
+	"rere/internal/api/controller"
 )
 
 // initDemo .

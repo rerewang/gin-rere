@@ -1,5 +1,5 @@
 name = "gin-rere"
-env="dev"
+env="prod"
 loadlocation = "Asia/Shanghai"
 
 [server]

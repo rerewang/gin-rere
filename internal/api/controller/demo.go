@@ -15,6 +15,7 @@ func Foo(c *gin.Context) {
 }
 
 func Hello(c *gin.Context) {
+	//app.G.Log.Info(app.G.Cfg.Get("env"))
 	name := c.Param("name")
 	app.RespSuccess(c, gin.H{
 		"message": fmt.Sprintf("Hello %s", name),
